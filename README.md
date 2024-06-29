@@ -1,2 +1,0 @@
-# foryousanidhyamyfriend
-yay
